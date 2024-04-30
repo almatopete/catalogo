@@ -12,4 +12,4 @@ echo "Running migrations..."
 php artisan migrate --force
 
 echo "Running seeds..."
-php artisan db:seed --class=MoviesTableSeeder
+php artisan db:seed --class=MoviesTableSeeder --force
